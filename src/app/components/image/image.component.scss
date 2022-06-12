@@ -1,0 +1,16 @@
+.img-wrapper {
+  display: block;
+  overflow: hidden;
+  img {
+    display: block;
+    object-fit: contain;
+    margin: 15px auto;
+    max-height: 500px;
+  }
+
+  .desc {
+    text-align: center;
+  }
+
+  margin-bottom: 10px;
+}
