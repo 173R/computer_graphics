@@ -14,4 +14,8 @@ export class ImageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  checkUrl(url: string): string {
+    return url.includes('http') ? url : '/computer_graphics' + url;
+  }
+
 }
